@@ -1,0 +1,22 @@
+{
+  "name": "fscat",
+  "version": "0.0.0",
+  "description": "A file service",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "Basic",
+    "File",
+    "Service"
+  ],
+  "author": "Tom",
+  "license": "MIT",
+  "dependencies": {
+    "knox": "~0.4.6",
+    "thug": "~0.4.3",
+    "thug-redis": "0.0.3"
+  }
+}
