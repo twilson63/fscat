@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var config = { redis: { host: '127.0.0.1', port: 6379, options: null}};
+var config = require('./config');
 var acct = require('./acct')(config);
 var dfile = require('./file')(config);
 var fs = require('fs');
