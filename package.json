@@ -1,6 +1,6 @@
 {
   "name": "fscat",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "A file service",
   "main": "server.js",
   "scripts": {
